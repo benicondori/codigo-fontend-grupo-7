@@ -8,7 +8,8 @@
   </head>
   <body>
     <main>
-      <form>
+      <form action="" oninput="x.value = parseInt(a.value)+parseInt(b.value)"><!-- esta parte del codigo hace referencia a la parte del rango -->
+        
         <div>
           <label for="input-nombre">NOMBRE</label> <br />
           <input type="text" id="input-nombre" name="input-nombre" />
@@ -37,36 +38,51 @@
             <label for="tenis">Tenis</label>
             <input type="checkbox" name="tenis" id="tenis" value="tenis" />
             <label for="basket">Basketball</label>
-            <input type="checkbox" name="basket" id="basket" value="basket">
+            <input type="checkbox" name="basket" id="basket" value="basket" />
             <label for="futbol">Futbol</label>
-            <input type="checkbox" name="futbol" id="futbol" value="futbol">
+            <input type="checkbox" name="futbol" id="futbol" value="futbol" />
           </div>
           <div>
-              <label for="coches">Marcas de Coches</label>
-              <select name="coches" id="coches" size="2">
-                  <option value="volvo">Volvo</option>
-                  <option value="subaru">Subaru</option>
-                  <option value="fiat">Fiat</option>
-                  <option value="lamborgini">Lamborgini</option>
-              </select>
+            <label for="coches">Marcas de Coches</label>
+            <select name="coches" id="coches" size="2">
+              <option value="volvo">Volvo</option>
+              <option value="subaru">Subaru</option>
+              <option value="fiat">Fiat</option>
+              <option value="lamborgini">Lamborgini</option>
+            </select>
           </div>
 
-          <div>                                                                                     
-              <label for="lenguajes">Lenguajes de Programacion</label>
-              <!-- todo este bloque hace referencia a combobox establecido en c# -->
-              <select name="lenguajes" id="lenguajes" size="3">
-                  <option value="javascript">JS</option>
-                  <option value="typescript">Typescript</option>
-                  <option value="c++">C++</option>
-                  <option value="java">Java</option>
-                  <option value="c#">C#</option>
-                  <option value="kotlin">Kotlin</option>
-                  <option value="swift">Swift</option>
-              </select>
+          <div>
+            <label for="lenguajes">Lenguajes de Programacion</label>
+            <!-- todo este bloque hace referencia a combobox establecido en c# -->
+            <select name="lenguajes" id="lenguajes" size="3">
+              <option value="javascript">JS</option>
+              <option value="typescript">Typescript</option>
+              <option value="c++">C++</option>
+              <option value="java">Java</option>
+              <option value="c#">C#</option>
+              <option value="kotlin">Kotlin</option>
+              <option value="swift">Swift</option>
+            </select>
           </div>
           <div>
-              <textarea name="mensaje" id="mensaje" cols="30" rows="10">Desarrollo FontEnd en codiGo</textarea>
-              <button type="button" onclick="alert('hola companieros')">Hola Presiona...!!!!</button>
+            <textarea name="mensaje" id="mensaje" cols="30" rows="10">
+Desarrollo FontEnd en codiGo</textarea
+            >
+            <button type="button" onclick="alert('hola companieros')">
+              Hola Presiona...!!!!
+            </button>
+          </div>
+          <div>
+            <div>
+              0
+              <!-- una linea de tiempo progresiva como rango -->
+              <input type="range" name="a" id="a" value="50" />
+              100
+              <input type="number" name="b" id="b" value="50" />
+              =
+              <output name="x" for="a"></output>
+            </div>
           </div>
         </div>
       </form>
