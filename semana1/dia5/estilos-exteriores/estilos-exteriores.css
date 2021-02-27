@@ -1,3 +1,23 @@
 p {
     color: darkslateblue;
 }
+
+/*SINTAXIS CSS: h1 es el selector como 
+    selector{
+        propiedad: valor;
+    }
+*/
+h1{
+    color: green;
+    font-size: 100px;
+}
+
+body{
+    background-color: black;
+    text-align: start;
+}
+
+header{
+    background-color: cyan;
+    text-align: center;
+}
