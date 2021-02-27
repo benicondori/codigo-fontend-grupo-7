@@ -1,0 +1,12 @@
+header{
+    color: #4FB0DC;
+    width: 100;
+    position: fixed;
+    z-index: 100;
+    text-align: center;
+}
+#perfil{
+    width: 200px;
+    height: 200px;
+    border-radius: 150px;
+}
