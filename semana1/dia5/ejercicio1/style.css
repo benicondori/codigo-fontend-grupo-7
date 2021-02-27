@@ -5,6 +5,7 @@
 }
 img{
     text-align: center;
+    border-radius: 10px;
 }
 .titulos{
     text-align: inherit;
@@ -23,5 +24,10 @@ img{
     background-color: yellow;
 }
 body{
-    background-color: teal;
+    background-color: yellow;
+}
+.input-estilos{
+    background-color: antiquewhite;
+    caret-color: yellow;
+    color: brown;
 }
