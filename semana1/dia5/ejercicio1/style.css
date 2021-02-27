@@ -20,4 +20,8 @@ img{
 }
 .subtex{
     text-align: center;
+    background-color: yellow;
+}
+body{
+    background-color: teal;
 }
