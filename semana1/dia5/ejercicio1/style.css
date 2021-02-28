@@ -17,8 +17,6 @@ img:hover{/*agranda la imagen cuando el mouse pasa por encima*/
 #centrame{
     text-align: center;
 }
-
-
 .titulos{
     text-align: inherit;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -51,3 +49,4 @@ form>label+input{
     font-size: 100px;/*INCREMENTA A TODOS LOS LABELS QUE ESTAN DENTRO DE UN FORM*/
     background-color: blueviolet;
 }
+
