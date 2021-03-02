@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Dancing+Script:wght@520&family=Oi&family=Permanent+Marker&family=Roboto+Mono:ital,wght@1,600&family=Stick&display=swap');
+
+#nombre{
+    color: crimson;
+}
+#color1{color: brown;}
+#color2{color: coral;}
+#color3{color: darkgreen;}
+#color4{color: darkslateblue;}
+#color5{color: firebrick;}
+.cancion{
+    font-family: 'Roboto Mono', monospace;
+}
+#parrafo1{
+    font-family: 'Roboto Mono', monospace; 
+}
+#parrafo3{
+    font-family: 'Permanent Marker', cursive;
+}
+sub{
+    color: gold;
+}
+#primer-nombre{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 35px;
+    font-weight: bold;
+}
+#segundo-nombre{
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 55px;
+    font-weight: bold;
+}
+#primer-apellido{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 25px;
+    font-weight: bold;
+}
+#segundo-apellido{
+    font-family: 'Stick', sans-serif;
+    font-size: 75px;
+    font-weight: bold;
+}
+.contenedor{
+    display: flex;
+}
