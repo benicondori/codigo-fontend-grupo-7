@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+body{
+    background-image: url(https://fondosmil.com/fondo/15989.jpg);
+    text-align: center;
+
+}
+.artista{
+    border-color: black;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    size: 30px;
+}
+#contenedor{
+    text-align: center;
+    height: auto;
+    width: auto;
+    opacity: 0.7;
+    /* background-image: url(https://www.buenamusica.com/media/fotos/cantantes/biografia/marshmello.jpg); */
+
+}
+img{
+    border-radius: 25px;
+    height: 80vh;
+}
+
+.texto{
+    border-radius: 50%;
+}
+h3{
+    padding: 30px 10px;
+    margin-left: 224px;
+}
+footer{
+    font-family: 'Press Start 2P', cursive;
+    background-color: lemonchiffon;
+    height: 10vh;
+    background-image: url(https://digital.ihg.com/is/image/ihg/Philadelphia_header);
+}

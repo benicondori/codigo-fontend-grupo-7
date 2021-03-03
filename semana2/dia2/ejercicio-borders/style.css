@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+
+}
+header{
+    border-style: double dashed dashed dotted;
+    font-size: 20px;
+    font-weight: bold;
+}
+#linea1{
+    border-style: inset;
+}
+#linea2{
+    border-style: double;
+
+}
+#linea3{
+    border-style: solid;
+}
+#linea4{
+    border-style: dotted double dotted double;
+}
+p{
+    size: 20px;
+}
