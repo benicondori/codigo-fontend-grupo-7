@@ -1,0 +1,22 @@
+body{
+    text-align: center;
+    background-image: linear-gradient(to right, red,yellow);
+}
+#imagen1{
+    width: 700px;
+    height: 700px;
+    transform: rotate(180deg);
+}
+#imagen2{
+    width: 700px;
+    height: 700px;
+    filter: grayscale(100%);
+    border-radius: 30%;
+    transform: skewy(225deg);
+
+}
+#imagen3{
+    width: 400px;
+    height: 400px;
+    filter: blur(20px);
+}
