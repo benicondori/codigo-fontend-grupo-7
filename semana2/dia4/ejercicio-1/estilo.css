@@ -1,0 +1,25 @@
+body{text-align: center;
+background-color: cyan;}
+header{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+img{
+    height: 400px;
+    width: 200px;
+    border-radius: 100%;
+    border: 10px solid BLACK;
+    margin-bottom: 30px;
+
+}
+div{
+    text-align: center;
+    font-size: 30PX;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border: 1px blue;
+
+}
+p{
+    background-color: cornflowerblue;
+}

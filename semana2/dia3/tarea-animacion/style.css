@@ -1,0 +1,88 @@
+
+body{
+    text-align: center;
+}
+
+#elemento {
+
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  font-size: 45px;
+  font-weight: bold;
+  background: linear-gradient(
+    to right,
+    #79fb00,
+    #8d01a0,
+    #031ba5,
+    #ff004c,
+    #2e8822,
+    #b934ca,
+    #ff6600,
+    #04c2e4,
+    #adad02,
+    #00c3ff
+  );
+  animation: mi-animacion 10s infinite;
+  
+}
+@keyframes mi-animacion {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+html,
+body {
+  height: 100% ;
+}
+#vegeta{
+  height: 500px;
+  width: 100px;
+  padding: 15%;
+  animation: vegeta 3s infinite;
+}
+#goku0{
+  height: 500px;
+  width: 200px;
+  padding: 15%;
+  animation: goku 3s infinite;
+}
+#pelea{
+  height: 500px;
+  width: 200px;
+  top: 0%;
+  
+}
+
+
+@keyframes vegeta{
+    0% {
+       transform: translateX(-100px);
+       
+    }
+    
+    50%{
+      display:none;
+    }
+    100%{
+      opacity: 100%;
+    }
+}
+@keyframes goku{
+  0% {
+    transform: translateX(100px);
+    
+ }
+ 
+ 100%{
+   transform: translate(-100px);
+ }
+
+}

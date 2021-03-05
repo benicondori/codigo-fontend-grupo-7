@@ -1,0 +1,12 @@
+div{
+    background-color: yellow;
+    font-weight: bold;
+    width: 600px;  /*exede o rebalsa la pagina al 100%*/
+    border: 10px solid blue;
+    padding-top: 100px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    padding-left: 70px;
+    /* padding: 50px; */
+    margin: 20px;
+}
