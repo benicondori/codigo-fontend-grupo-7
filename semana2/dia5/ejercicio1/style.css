@@ -1,0 +1,9 @@
+body{
+    text-align: center;
+}
+header{
+    background-color: rgba(158, 150, 150, 0.685);
+}
+img{
+    filter: grayscale(100%);
+}
