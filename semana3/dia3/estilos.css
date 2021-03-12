@@ -1,0 +1,26 @@
+#contenedor-vertical{
+    display: flex;
+    flex-direction: row;
+    /* para poner elementos en fila o columna */
+    background-color: blueviolet;
+}
+#contenedor-horizontal{
+    display: flex;
+    flex-direction: column;
+    /* para poner elementos en fila o columna */
+    background-color: cadetblue;
+}
+
+#contenedor-horizontal-header{
+    display: flex;
+    flex-direction: column;
+    /* para poner elementos en fila o columna */
+    background-color: goldenrod;
+    justify-content: space-between;
+}
+.elemento{
+    background-color: chartreuse;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}

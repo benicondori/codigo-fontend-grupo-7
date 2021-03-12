@@ -1,17 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,800&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+label{
+    margin-right: 15px;
+    font-size: 20px;
+}
+h1{
+    font-size: 50px;
+}
+
 body{
     background-color: #9EDBD2;
     text-align: center;
 }
-*{
-    font-family: 'Poppins', sans-serif;
-    font-size: 24px;
-}
-label{
-    margin-right: 15px;
-}
+
+
 .pregunta{
+    margin-bottom: 25bbbpx;
+}
+#frontend{
     margin-bottom: 50px;
+    display: block;
+    width: 50%;
+    text-align: right;
+}
+#contenido-preguntas{
+    margin-right: 70px;
+    display: block;
+
+}
+#titulo-label{
+    margin-left: 100px;
+}
+
+button{
+    margin-top: 50px;
 }
 #contenedor-principal{
     background-color: white;
@@ -19,19 +44,18 @@ label{
     width: 50%;
     height: 100vh;
     padding: 20px ;
+
 }
-button{
-    margin-top: 50px;
-}
-#frontend{
+#eleccion{
     margin-bottom: 50px;
     display: flex;
     width: 50%;
-    text-align: center;
+    text-align: right;
 }
-#contenido-preguntas{
-    margin-right: 70px;
+#candidato{
+    margin-left: 10%;
+    display: block;
+
 }
-#titulo-label{
-    margin-left: 100px;
-}
+
+

@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&family=RocknRoll+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&family=Lobster&family=RocknRoll+One&display=swap');
+body{
+    background-color:teal;
+    text-align: center;
+}
+
+/* para pantallas pequenas celulares hasta 600 px osea que tiene un ancho menor a 600px*/
+@media only screen and (max-width:600px){
+    body{
+        background-color: tomato;
+    }
+    img{
+        width: 100px;
+        height: 600px;
+        border-radius: 12px;
+    }
+    #texto1{
+
+    }
+}
+p{
+    font-family: 'RocknRoll One', sans-serif;
+    font-family: 'Fascinate', cursive;
+    font-family: 'Lobster', cursive;
+}
+
+/* pantallas pequenas tablets en modo prtrait(vertical) y celulares grandes, o sea que tienen un ancho mayor a 600px */
+@media only screen and(min-width:600px){
+    body{
+        background-color: violet;
+    }
+    img{
+        width: 200px;
+        height: 400px;
+    }
+    #texto1{
+        font-family: 'Fascinate', cursive;
+    }
+}
+/* pantallas de tamano medio( tablets, en modo landscapes (modo horizontal), que tienen un ancho mayor o igual a 768 px */
+@media only screen and (min-width:768px){
+    body{
+        background-color: yellow;
+    }
+    img{
+        display: none;
+    }
+    #texto1{
+        font-family: 'Fascinate', cursive;
+    }
+}
+/* pantallas grandes (laptops)compu de escritorio, osea un ancho mayor o igual a 992px */
+@media only screen and (min-width:992px){
+    body{
+        background-color: peru;
+    }
+    img{
+        border-radius: 50%;
+        width: 300px;
+        display: block;
+    }
+    #texto1{
+        font-style: italic;
+    }
+}
+/* pantallas MUY GRANDES (ejem. laptops gamer, monitores extragrandes que tienen un ancho de mayor o igual a 1200px */
+@media only screen and (min-width:1200px){
+    body{
+        background-color: cyan;
+    }
+    img{
+        opacity: 0.7;
+    }
+    #texto1{
+        font-family: 'Lobster', cursive;
+        font-size: larger;
+        font-weight: bold;
+    }
+}
